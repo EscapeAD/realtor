@@ -1,7 +1,25 @@
 import React from 'react';
 
+import List from '../List';
+
 export default class Listing extends React.Component {
   render() {
+
+    const Lists = [
+   "Some Article",
+   "Some Other Article",
+   "Yet Another Article",
+   "Still More",
+   "Some Article",
+   "Some Other Article",
+   "Yet Another Article",
+   "Still More",
+   "Some Article",
+   "Some Other Article",
+   "Yet Another Article",
+   "Still More",
+ ].map((title, i) => <List key={i} title={title}/> );
+
     return (
       <div id="real-press" data-section="press">
     		<div class="container">
@@ -16,18 +34,7 @@ export default class Listing extends React.Component {
     				</div>
     			</div>
     			<div class="row">
-    				<div class="col-md-6">
-    					<div class="real-press-item to-animate">
-    						<div class="real-press-img">
-    						</div>
-    						<div class="real-press-text">
-    							<h3 class="h2 real-press-title">Simplicity <span class="real-border"></span></h3>
-    							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eius quos similique suscipit dolorem cumque vitae qui molestias illo accusantium...</p>
-    							<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
-    						</div>
-    					</div>
-    				</div>
-
+          {Lists}
     			</div>
     		</div>
     	</div>
