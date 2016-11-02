@@ -3,11 +3,11 @@ import React from 'react';
 export default class Header extends React.Component {
   render() {
     return (
-      <header role="banner" id="fh5co-header">
+      <header role="banner" id="real-header">
       <div class="container" >
           <nav class="navbar navbar-default">
             <div class="navbar-header">
-              <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+              <a href="#" class="js-real-nav-toggle real-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
                 <a class="navbar-brand" href="index.html">Zach Szeto</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
