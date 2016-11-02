@@ -3,72 +3,59 @@ import React from 'react';
 export default class Service extends React.Component {
   render() {
     return (
-      <div id="real-features" data-section="features">
+      <div id="real-our-services" data-section="services">
     		<div class="container">
-    			<div class="row">
+    			<div class="row row-bottom-padded-sm">
     				<div class="col-md-12 section-heading text-center">
-    					<h2 class="single-animate animate-features-1">Features</h2>
+    					<h2 class="to-animate">Zach Services</h2>
     					<div class="row">
-    						<div class="col-md-8 col-md-offset-2 single-animate animate-features-2">
+    						<div class="col-md-8 col-md-offset-2 to-animate">
     							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
     						</div>
     					</div>
     				</div>
     			</div>
-    			<div class="row row-bottom-padded-sm">
-    				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 real-service to-animate">
-    					<div class="real-icon"><i class="icon-present"></i></div>
-    					<div class="real-desc">
-    						<h3>100% Free</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-    					</div>
-    				</div>
-    				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12  real-service to-animate">
-    					<div class="real-icon"><i class="icon-eye"></i></div>
-    					<div class="real-desc">
-    						<h3>Retina Ready</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-    					</div>
-    				</div>
-    				<div class="clearfix visible-sm-block visible-xs-block"></div>
-    				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12  real-service to-animate">
-    					<div class="real-icon"><i class="icon-crop"></i></div>
-    					<div class="real-desc">
-    						<h3>Fully Responsive</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-    					</div>
-    				</div>
-    				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 real-service to-animate">
-    					<div class="real-icon"><i class="icon-speedometer"></i></div>
-    					<div class="real-desc">
-    						<h3>Lightweight</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-    					</div>
-    				</div>
-    				<div class="clearfix visible-sm-block visible-xs-block"></div>
-    				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12  real-service to-animate">
-    					<div class="real-icon"><i class="icon-heart"></i></div>
-    					<div class="real-desc">
-    						<h3>Made with Love</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-    					</div>
-    				</div>
-    				<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12  real-service to-animate">
-    					<div class="real-icon"><i class="icon-umbrella"></i></div>
-    					<div class="real-desc">
-    						<h3>Eco Friendly</h3>
-    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-    					</div>
-    				</div>
-    				<div class="clearfix visible-sm-block visible-xs-block"></div>
-    			</div>
     			<div class="row">
-    				<div class="col-md-4 col-md-offset-4 single-animate animate-features-3">
-    					<a href="#" class="btn btn-primary btn-block">Learn More</a>
+    				<div class="col-md-4">
+    					<div class="box to-animate">
+    						<div class="icon colored-1"><span><i class="icon-mustache"></i></span></div>
+    						<h3>100% free</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    					</div>
+    					<div class="box to-animate">
+    						<div class="icon colored-4"><span><i class="icon-heart"></i></span></div>
+    						<h3>Made with love</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    					</div>
+    				</div>
+    				<div class="col-md-4">
+    					<div class="box to-animate">
+    						<div class="icon colored-2"><span><i class="icon-screen-desktop"></i></span></div>
+    						<h3>Fully responsive</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    					</div>
+    					<div class="box to-animate">
+    						<div class="icon colored-5"><span><i class="icon-rocket"></i></span></div>
+    						<h3>Fast &amp; light</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    					</div>
+    				</div>
+    				<div class="col-md-4">
+    					<div class="box to-animate">
+    						<div class="icon colored-3"><span><i class="icon-eye"></i></span></div>
+    						<h3>Retina-ready</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    					</div>
+    					<div class="box to-animate">
+    						<div class="icon colored-6"><span><i class="icon-user"></i></span></div>
+    						<h3>For creative like you!</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    					</div>
     				</div>
     			</div>
     		</div>
     	</div>
+
 
 
 
