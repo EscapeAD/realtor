@@ -4,7 +4,7 @@ import List from '../List';
 
 export default class Listing extends React.Component {
   render() {
-
+    
     const Lists = [
    "Some Article",
    "Some Other Article",
