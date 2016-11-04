@@ -15,7 +15,7 @@ body {
   height: 40em;
 }
 #banner-div{
-  background: url('../../public/img/background.jpeg') no-repeat;
+  background: url('./img/background.jpeg') no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%

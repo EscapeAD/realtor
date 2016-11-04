@@ -15,7 +15,7 @@ export default class About extends React.Component {
     					</div>
     				</div>
     				<div class="col-md-8 to-animate">
-    					<img src="../../public/img/profile.jpg" class="img-responsive img-rounded" alt="Profile picture" />
+    					<img src="./img/profile.jpg" class="img-responsive img-rounded" alt="Profile picture" />
     				</div>
     				<div class="col-md-4 to-animate">
     					<h2>How we got started</h2>
