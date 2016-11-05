@@ -21,7 +21,9 @@ export default class Testimonials extends React.Component {
               <div class="box-testimony to-animate">
                 <blockquote>
                   <span class="quote"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span></span>
-                  <p>&ldquo;  &rdquo;</p>
+                  <p>&ldquo;
+                  Candy canes lollipop marzipan. Marzipan bonbon jelly beans cake cake chocolate. Apple pie toffee jelly beans tootsie roll sesame snaps. Powder tiramisu jujubes jelly beans.
+                  &rdquo;</p>
                 </blockquote>
                 <p class="author">Wakka Tse</p>
                </div>
@@ -31,7 +33,9 @@ export default class Testimonials extends React.Component {
               <div class="box-testimony to-animate">
                 <blockquote>
                   <span class="quote"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span></span>
-                  <p>&ldquo;  &rdquo;</p>
+                  <p>&ldquo;
+                  Candy canes lollipop marzipan. Marzipan bonbon jelly beans cake cake chocolate. Apple pie toffee jelly beans tootsie roll sesame snaps. Powder tiramisu jujubes jelly beans.
+                   &rdquo;</p>
                 </blockquote>
                 <p class="author">Wakka Tse</p>
               </div>
@@ -42,7 +46,10 @@ export default class Testimonials extends React.Component {
               <div class="box-testimony to-animate">
                 <blockquote>
                   <span class="quote"><span><i class="fa fa-quote-left" aria-hidden="true"></i></span></span>
-                  <p>&ldquo;  &rdquo;</p>
+                  <p>&ldquo;
+                  Candy canes lollipop marzipan. Marzipan bonbon jelly beans cake cake chocolate. Apple pie toffee jelly beans tootsie roll sesame snaps. Powder tiramisu jujubes jelly beans.
+
+                   &rdquo;</p>
                 </blockquote>
                 <p class="author">Wakka Tse</p>
               </div>
